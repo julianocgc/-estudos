@@ -20,5 +20,11 @@ public class JavaApplicationSegundoPrograma {
         System.out.println("O resto da divisão é " + numero1 % numero2);
         System.out.println("3 elevado a 2 é igual a " + Math.pow(3, 2));
         
+        boolean estaCalor = false;
+        String frase = "Olha eu aqui...";
+        
+        JOptionPane.showMessageDialog(null, estaCalor);
+        JOptionPane.showMessageDialog(null, frase + " outra vez!");
+        
     }
 }
